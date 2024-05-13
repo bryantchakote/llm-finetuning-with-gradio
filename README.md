@@ -52,9 +52,4 @@ As you may have noticed, some hyper-parameters and config stuff can't be modifie
 
 2. **Inference (2):** This notebook utilizes the fine-tuned model for inference using a Gradio chatbot.
 
-**Note**: Sorry for the use of separate notebooks for training and inference
-
-- The way Gradio naturally allows to store objects dind't permit to save neither the fine-tuned model nor it's tokenizer after the execution of the fine-tuning pipeline.
-- Also, we weren't able to tweak the chatbot block in order to make it load the model and tokenizer from the hub after the fine-tuning has completed.
-
-That's why we used the alternative solution: use one Gradio app for model fine-tuning, and a second for inference.
+**Note**: Sorry for the use of separate notebooks for training and inference, we weren't able to tweak the chatbot block in order to make it load the model and tokenizer from the hub after the fine-tuning has completed.
