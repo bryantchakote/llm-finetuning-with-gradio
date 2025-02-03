@@ -53,3 +53,16 @@ As you may have noticed, some hyper-parameters and config stuff can't be modifie
 2. **Inference (2):** This notebook utilizes the fine-tuned model for inference using a Gradio chatbot.
 
 **Note**: Sorry for the use of separate notebooks for training and inference, we weren't able to tweak the chatbot block in order to make it load the model and tokenizer from the hub after the fine-tuning has completed.
+
+## Cloning or Forking the Repository
+
+To clone this repository into your account, you can follow these steps:
+
+1. Go to the repository page on GitHub: bryantchakote/llm-finetuning-with-gradio
+2. Click on the "Fork" button at the top right corner of the page
+3. Select your GitHub account as the destination for the fork
+4. Once the repository is forked, you can clone it to your local machine using the following command:
+```bash
+git clone https://github.com/YOUR-USERNAME/llm-finetuning-with-gradio.git
+```
+Replace `YOUR-USERNAME` with your GitHub username.
